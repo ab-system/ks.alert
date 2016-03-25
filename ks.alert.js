@@ -1,5 +1,5 @@
 angular
-    .module("app", ["ui.bootstrap"])
+    .module("ks.alert", ["ui.bootstrap"])
 	.factory("alertFactory", [
         "$modal",
         function ($modal) {
